@@ -175,6 +175,7 @@ main {
   background-color: #2E245E;
   color: white;
   border: none;
+  width: 100px;
 }
 
 .search {
