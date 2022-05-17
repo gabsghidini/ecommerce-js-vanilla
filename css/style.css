@@ -8,6 +8,11 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+button {
+  margin: 0;
+  padding: 0;
+}
+
 figure {
   margin: 0;
   padding: 0;
@@ -221,6 +226,8 @@ main {
 }
 
 .addCart {
+  background-color: white;
+  border: none;
   text-decoration: none;
   font-weight: 500;
   color: #000000;
