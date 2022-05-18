@@ -194,6 +194,10 @@ main {
   width: 100%;
 }
 
+.itemDescription:hover {
+  color: #37268C;
+  text-decoration: underline;
+}
 
 .cartTotal {
   display: flex;
