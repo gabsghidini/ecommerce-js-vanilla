@@ -5,6 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/database.js"></script>
+  <script defer src="./js/index.js"></script>
   <title>Wear Take | A Sua Loja Desportiva!</title>
 </head>
 <body>
@@ -22,78 +24,6 @@
   <main>
     <section class="items">
       <ul class="itemsList">
-        <li class="card">
-          <figure class="img">
-            <img src="./img/jaqueta.svg" alt="Lightweight Jacket" title="Lightweight Jacket" class="">
-          </figure>
-          <div class="details">
-            <small class="itemCategory">Camisetas</small>
-            <h3 class="itemTitle">Lightweight Jacket</h3>
-            <p class="itemDescription">Adicione um pouco de energia ao seu guarda-roupa de inverno com esta jaqueta vibrante...</p>
-            <h4 class="itemPrice">R$ 100.00</h4>
-            <button class="addCart">Adicionar ao carrinho</button>
-          </div>
-        </li>
-        <li class="card">
-          <figure class="img">
-            <img src="./img/gorro.svg" alt="Black Hat" title="Black Hat" class="">
-          </figure>
-          <div class="details">
-            <small class="itemCategory">Acessórios</small>
-            <h3 class="itemTitle">Black Hat</h3>
-            <p class="itemDescription">O gorro Next.js chegou! Esta beldade bordada tem um ajuste confortável que garante que...</p>
-            <h4 class="itemPrice">R$ 100.00</h4>
-            <button class="addCart">Adicionar ao carrinho</button>
-          </div>
-        </li>
-        <li class="card">
-          <figure class="img">
-            <img src="./img/mascara.svg" alt="Mask" title="Mask" class="">
-          </figure>
-          <div class="details">
-            <small class="itemCategory">Acessórios</small>
-            <h3 class="itemTitle">Mask</h3>
-            <p class="itemDescription">Esta máscara facial durável é feita de duas camadas de tecido tratado e possui presilhas...</p>
-            <h4 class="itemPrice">R$ 40.00</h4>
-            <button class="addCart">Adicionar ao carrinho</button>
-          </div>
-        </li>
-        <li class="card">
-          <figure class="img">
-            <img src="./img/camiseta_preta.svg" alt="T-Shirt" title="T-Shirt" class="">
-          </figure>
-          <div class="details">
-            <small class="itemCategory">Camisetas</small>
-            <h3 class="itemTitle">T-Shirt</h3>
-            <p class="itemDescription">Esta t-shirt é imprescindível no seu guarda-roupa, combinando o caimento intemporal de...</p>
-            <h4 class="itemPrice">R$ 100.00</h4>
-            <button class="addCart">Adicionar ao carrinho</button>
-          </div>
-        </li>
-        <li class="card">
-          <figure class="img">
-            <img src="./img/camiseta_branca.svg" alt="Short-Sleeve T-Shirt" title="Short-Sleeve T-Shirt" class="">
-          </figure>
-          <div class="details">
-            <small class="itemCategory">Camisetas</small>
-            <h3 class="itemTitle">Short-Sleeve T-Shirt</h3>
-            <p class="itemDescription">Agora você encontrou a camiseta básica do seu guarda-roupa. É feito de um mais grosso...</p>
-            <h4 class="itemPrice">R$ 100.00</h4>
-            <button class="addCart">Adicionar ao carrinho</button>
-          </div>
-        </li>
-        <li class="card">
-          <figure class="img">
-            <img src="./img/moletom.svg" alt="Champion Packable Jacket" title="Champion Packable Jacket" class="">
-          </figure>
-          <div class="details">
-            <small class="itemCategory">Camisetas</small>
-            <h3 class="itemTitle">Champion Packable Jacket</h3>
-            <p class="itemDescription">Proteja-se dos elementos com esta jaqueta embalável Champion. Esta jaqueta de poliést...</p>
-            <h4 class="itemPrice">R$ 100.00</h4>
-            <button class="addCart">Adicionar ao carrinho</button>
-          </div>
-        </li>
       </ul>
     </section>
     <section class="sidebar">
@@ -107,36 +37,6 @@
         </header>
         <div class="cartItems">
           <ul class="cartItemsList">
-            <li class="cartList">
-              <figure class="cartImage">
-                <img src="./img/gorro.svg" alt="Black Hat" title="Black Hat">
-              </figure>
-              <div class="cartDetails">
-                <h4 class="cartItemTitle">Black Hat</h4>
-                <h4 class="cartItemPrice">R$ 100.00</h4>
-                <p class="itemDescription">Remover produto</p>
-              </div>
-            </li>
-            <li class="cartList">
-              <figure class="cartImage">
-                <img src="./img/camiseta_branca.svg" alt="Short-Sleeve T-Shirt" title="Short-Sleeve T-Shirt">
-              </figure>
-              <div class="cartDetails">
-                <h4 class="cartItemTitle">Short-Sleeve T-Shirt</h4>
-                <h4 class="cartItemPrice">R$ 100.00</h4>
-                <p class="itemDescription">Remover produto</p>
-              </div>
-            </li>
-            <li class="cartList">
-              <figure class="cartImage">
-                <img src="./img/moletom.svg" alt="Champion Packable Jacket" title="Champion Packable Jacket">
-              </figure>
-              <div class="cartDetails">
-                <h4 class="cartItemTitle">Champion Packable Jacket</h4>
-                <h4 class="cartItemPrice">R$ 100.00</h4>
-                <p class="itemDescription">Remover produto</p>
-              </div>
-            </li>
           </ul>
         </div>
         <div class="total">
